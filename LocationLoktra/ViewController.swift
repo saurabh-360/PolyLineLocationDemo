@@ -23,11 +23,6 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
     var startLocation : CLLocation?
     var endLocation : CLLocation?
     var myRoute : MKRoute!
-
-//        didSet{
-//            startLocation = nil
-//        }
-//    }
     let locationManager = CLLocationManager()
     
     var beginTime : TimerCalculator?
@@ -109,16 +104,17 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
             if let pointsArray = self.mapviewLocation.overlays as? NSArray{
                 self.mapviewLocation.removeOverlays(pointsArray as! [MKOverlay])
             }
+            var arr = [MKAnnotation]()
+            for mapAnnotation in self.mapviewLocation.annotations{
+                arr.append(mapAnnotation)
+            }
+            self.mapviewLocation.removeAnnotations(arr)
+            
             shouldUpdateStartCounter += 1
             startLocation = location
-            locationManager.stopMonitoringSignificantLocationChanges()
-            locationManager.stopUpdatingLocation()
         } else if shouldUpdateStartCounter == -1 {
             endLocation = location
             shouldUpdateStartCounter -= 1
-            locationManager.stopMonitoringSignificantLocationChanges()
-            locationManager.stopUpdatingLocation()
-            
             let annotation = MKPointAnnotation()
             annotation.title = "Previous Location"
             annotation.coordinate = CLLocationCoordinate2D(latitude: (startLocation?.coordinate.latitude)!, longitude: (startLocation?.coordinate.longitude)!)
@@ -126,6 +122,8 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
             
         self.showRouteOnMap()
         }
+        locationManager.stopMonitoringSignificantLocationChanges()
+        locationManager.stopUpdatingLocation()
         print(startLocation?.coordinate ?? "start 0", endLocation?.coordinate ?? "end 0")
         mapviewLocation.showsUserLocation = true
     }
