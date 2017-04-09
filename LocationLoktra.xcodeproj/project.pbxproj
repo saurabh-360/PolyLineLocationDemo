@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		231B7FD21E998FEA00A736C3 /* CustomSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B7FD11E998FEA00A736C3 /* CustomSlider.swift */; };
+		231B7FD41E99AC1F00A736C3 /* ExtensionsUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B7FD31E99AC1F00A736C3 /* ExtensionsUIView.swift */; };
+		231B7FD61E99B00A00A736C3 /* TimerCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B7FD51E99B00A00A736C3 /* TimerCalculator.swift */; };
+		231B7FDE1E99D54400A736C3 /* Mumbai.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 231B7FD71E99D54400A736C3 /* Mumbai.gpx */; };
+		231B7FDF1E99D54400A736C3 /* brisbane.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 231B7FD81E99D54400A736C3 /* brisbane.gpx */; };
+		231B7FE01E99D54400A736C3 /* canberra.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 231B7FD91E99D54400A736C3 /* canberra.gpx */; };
+		231B7FE11E99D54400A736C3 /* darwin.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 231B7FDA1E99D54400A736C3 /* darwin.gpx */; };
+		231B7FE21E99D54400A736C3 /* hobart.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 231B7FDB1E99D54400A736C3 /* hobart.gpx */; };
+		231B7FE31E99D54400A736C3 /* melbourne.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 231B7FDC1E99D54400A736C3 /* melbourne.gpx */; };
+		231B7FE41E99D54400A736C3 /* perth.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 231B7FDD1E99D54400A736C3 /* perth.gpx */; };
 		2335890A1E99519B00ED4A70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233589091E99519B00ED4A70 /* AppDelegate.swift */; };
 		2335890C1E99519B00ED4A70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2335890B1E99519B00ED4A70 /* ViewController.swift */; };
 		2335890F1E99519B00ED4A70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2335890D1E99519B00ED4A70 /* Main.storyboard */; };
@@ -16,6 +26,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		231B7FD11E998FEA00A736C3 /* CustomSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSlider.swift; sourceTree = "<group>"; };
+		231B7FD31E99AC1F00A736C3 /* ExtensionsUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionsUIView.swift; sourceTree = "<group>"; };
+		231B7FD51E99B00A00A736C3 /* TimerCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerCalculator.swift; sourceTree = "<group>"; };
+		231B7FD71E99D54400A736C3 /* Mumbai.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Mumbai.gpx; sourceTree = "<group>"; };
+		231B7FD81E99D54400A736C3 /* brisbane.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = brisbane.gpx; sourceTree = "<group>"; };
+		231B7FD91E99D54400A736C3 /* canberra.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = canberra.gpx; sourceTree = "<group>"; };
+		231B7FDA1E99D54400A736C3 /* darwin.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = darwin.gpx; sourceTree = "<group>"; };
+		231B7FDB1E99D54400A736C3 /* hobart.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = hobart.gpx; sourceTree = "<group>"; };
+		231B7FDC1E99D54400A736C3 /* melbourne.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = melbourne.gpx; sourceTree = "<group>"; };
+		231B7FDD1E99D54400A736C3 /* perth.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = perth.gpx; sourceTree = "<group>"; };
 		233589061E99519B00ED4A70 /* LocationLoktra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocationLoktra.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		233589091E99519B00ED4A70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2335890B1E99519B00ED4A70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,6 +60,13 @@
 		233588FD1E99519B00ED4A70 = {
 			isa = PBXGroup;
 			children = (
+				231B7FD71E99D54400A736C3 /* Mumbai.gpx */,
+				231B7FD81E99D54400A736C3 /* brisbane.gpx */,
+				231B7FD91E99D54400A736C3 /* canberra.gpx */,
+				231B7FDA1E99D54400A736C3 /* darwin.gpx */,
+				231B7FDB1E99D54400A736C3 /* hobart.gpx */,
+				231B7FDC1E99D54400A736C3 /* melbourne.gpx */,
+				231B7FDD1E99D54400A736C3 /* perth.gpx */,
 				233589081E99519B00ED4A70 /* LocationLoktra */,
 				233589071E99519B00ED4A70 /* Products */,
 			);
@@ -56,6 +83,9 @@
 		233589081E99519B00ED4A70 /* LocationLoktra */ = {
 			isa = PBXGroup;
 			children = (
+				231B7FD31E99AC1F00A736C3 /* ExtensionsUIView.swift */,
+				231B7FD51E99B00A00A736C3 /* TimerCalculator.swift */,
+				231B7FD11E998FEA00A736C3 /* CustomSlider.swift */,
 				233589091E99519B00ED4A70 /* AppDelegate.swift */,
 				2335890B1E99519B00ED4A70 /* ViewController.swift */,
 				2335890D1E99519B00ED4A70 /* Main.storyboard */,
@@ -127,8 +157,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				233589171E99519B00ED4A70 /* LaunchScreen.storyboard in Resources */,
+				231B7FE41E99D54400A736C3 /* perth.gpx in Resources */,
+				231B7FE11E99D54400A736C3 /* darwin.gpx in Resources */,
+				231B7FDF1E99D54400A736C3 /* brisbane.gpx in Resources */,
 				233589141E99519B00ED4A70 /* Assets.xcassets in Resources */,
+				231B7FDE1E99D54400A736C3 /* Mumbai.gpx in Resources */,
 				2335890F1E99519B00ED4A70 /* Main.storyboard in Resources */,
+				231B7FE31E99D54400A736C3 /* melbourne.gpx in Resources */,
+				231B7FE01E99D54400A736C3 /* canberra.gpx in Resources */,
+				231B7FE21E99D54400A736C3 /* hobart.gpx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,6 +179,9 @@
 				233589121E99519B00ED4A70 /* LocationLoktra.xcdatamodeld in Sources */,
 				2335890C1E99519B00ED4A70 /* ViewController.swift in Sources */,
 				2335890A1E99519B00ED4A70 /* AppDelegate.swift in Sources */,
+				231B7FD61E99B00A00A736C3 /* TimerCalculator.swift in Sources */,
+				231B7FD41E99AC1F00A736C3 /* ExtensionsUIView.swift in Sources */,
+				231B7FD21E998FEA00A736C3 /* CustomSlider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +341,7 @@
 				2335891D1E99519B00ED4A70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
